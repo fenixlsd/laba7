@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Список фильмов</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Генри Кавилл</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="info.html">Информация</a></li>
+                <li class="nav-item"><a class="nav-link active" href="films.html">Список фильмов</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <!-- Задание 1 -->
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <h2>Генри Кавилл</h2>
+            <p><strong>Дата рождения:</strong> 5 мая 1983</p>
+            <p><strong>Возраст:</strong> 41 год</p>
+            <p><strong>Количество фильмов:</strong> 25</p>
+            <p><strong>Жанры:</strong> драма, фэнтези, боевик</p>
+        </div>
+        <div class="col-md-6">
+            <img src="genry kavill.jpg" class="img-fluid rounded" alt="Фото Генри Кавилла">
+        </div>
+    </div>
+
+    <!-- Задание 2 -->
+    <h2 class="mb-4">Лучшие фильмы</h2>
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="iron man photo.jpg" class="card-img-top" alt="Человек из стали">
+                <div class="card-body">
+                    <h5 class="card-title">Человек из стали</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="witcher-main-poster-1.jpg" class="card-img-top" alt="Ведьмак">
+                <div class="card-body">
+                    <h5 class="card-title">Ведьмак</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="mission impossible.jpeg" class="card-img-top" alt="Миссия невыполнима">
+                <div class="card-body">
+                    <h5 class="card-title">Миссия невыполнима</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="justice league.jpg" class="card-img-top" alt="Лига справедливости">
+                <div class="card-body">
+                    <h5 class="card-title">Лига справедливости</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Задание 3 -->
+    <h2 class="mb-4">Интересные факты</h2>
+    <div class="row">
+        <div class="col-md-8">
+            <p><strong>Оскары:</strong> Генри Кавилл не получал Оскар, но был номинирован на другие премии.</p>
+            <p><strong>Любимое блюдо:</strong> паста с курицей и грибами.</p>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <img src="genry kavill 2.jpg" class="img-fluid rounded" alt="Интересное фото">
+        </div>
+    </div>
+
+    <!-- Задание 4 -->
+    <h2 class="text-center my-5">Фильмография</h2>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Год</th>
+            <th>Русское название</th>
+            <th>Оригинальное название</th>
+            <th>Роль</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2013</td>
+            <td>Человек из стали</td>
+            <td>Man of Steel</td>
+            <td>Кларк Кент / Супермен</td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>Бэтмен против Супермена</td>
+            <td>Batman v Superman: Dawn of Justice</td>
+            <td>Кларк Кент / Супермен</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>Ведьмак</td>
+            <td>The Witcher</td>
+            <td>Геральт из Ривии</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
